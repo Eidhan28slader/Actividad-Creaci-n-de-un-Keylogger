@@ -1,0 +1,2 @@
+To use this program first we need to upload the Keyboard with the next comand:
+pip install keyboard
