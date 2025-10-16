@@ -1,4 +1,4 @@
-Para poder utilizar este programa se necesita descargar primero el KEYBOARD con el siguiente comando:
+To use this program first we need to upload the Keyboard with the next comand:
 pip install keyboard
-
-despues de eso abrir el VS code y ejecutar el programa  y ver todo lo que sale en el archivo salida.txt
+then we need to copy the code in VS code and see the result in the folder salida.txt
+and we can see that the program can excute in any place of the computer
