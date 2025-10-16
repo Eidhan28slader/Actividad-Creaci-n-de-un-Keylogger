@@ -2,10 +2,10 @@
 We need to copy the code in VS code and see the result in the folder salida.txt
 and we can see that the program can excute in any place of the computer
 
-En mi codigo primero importamos la libreria con  "import keyboard"
-Despues de eso creamos una funcion saca que va a tener un evento 
-despues ponemos "with open("salida.txt", "a") as file:" para creaar una carpeta llamada "salida.txt" y agregue todo el contenido
-luego usamos este codigo "file.write(f"{event.name}")" para que todo el contenido que hagamos (las teclas presionadas) se guarden en el nombre del evento el cual es Keyboard
-Despues de eso ingresamos los dos ultimos comandos:
-keyboard.on_press(saca), este comando sirve para que cada tecla qe presionemos se guarde en la funcion
-keyboard.wait("."), el programa terminara cuando se presione la tecla "."
+In my code, we first import the library with “import keyboard.”
+After that, we create a function that will have an event. 
+Then we put “with open(‘output.txt’, ‘a’) as file:” to create a folder called “output.txt” and add all the content.
+Then we use this code “file.write(f”{event.name}“)” so that all the content we create (the keys pressed) is saved in the name of the event, which is Keyboard
+After that, we enter the last two commands:
+keyboard.on_press(saca), this command is used so that each key we press is saved in the function
+keyboard.wait(“.”), the program will end when the “.” key is pressed
