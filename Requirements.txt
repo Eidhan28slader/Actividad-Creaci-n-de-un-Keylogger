@@ -1,2 +1,4 @@
+First please open VS Code and copy the code
 To use this program first we need to upload the Keyboard with the next comand:
 pip install keyboard
+Please put this command in the terminal of VS code
